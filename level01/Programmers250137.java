@@ -15,7 +15,7 @@ public class Programmers250137 {
         int turn = 0;
         int gauge = 0;
 
-        // 마지막 공격의 턴까지 반복
+        // 공격이 끝날때까지 반복
         while (turn <= attacks[attacks.length - 1][0]) {
             // 이번 턴에 공격당함 여부 확인
             int attackIndex = getAttackIndex(attacks, turn);
