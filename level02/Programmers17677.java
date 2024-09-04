@@ -9,7 +9,8 @@ import java.util.regex.Pattern;
  * 출처: 2018 KAKAO BLIND RECRUITMENT
  * 링크: https://school.programmers.co.kr/learn/courses/30/lessons/17677
  * 설명: 정규표현식을 사용하여 문자열을 2글자씩 자를때 알파벳을 제외한 모든 문자를 제거했다.
- *      그 후 문자열을 비교하며 두 배열에 공통인 것은 교집합 배열에 추가하고 다른것은 합집합 배열에 추가하여 해결 */
+ *      그 후 문자열을 비교하며 두 배열에 공통인 것은 교집합 배열에 추가하고 다른것은 합집합 배열에 추가하여 해결
+ * 참고: https://minhamina.tistory.com/108 */
 
 public class Programmers17677 {
 
