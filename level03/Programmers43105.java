@@ -6,6 +6,8 @@ package level03;
  * 해결방법: DP
  * */
 
+import java.util.Arrays;
+
 public class Programmers43105 {
     class Solution {
         public int solution(int[][] triangle) {
@@ -32,12 +34,9 @@ public class Programmers43105 {
             }
 
             // 마지막 줄에서 최댓값 찾기
-            int max = 0;
-            for (int j = 0; j < n; j++) {
-                max = Math.max(max, dp[n - 1][j]);
-            }
-
-            return max;
+            return Arrays.stream(dp[triangle.length - 1])
+                    .max()
+                    .orElse(-1);
         }
     }
 }
