@@ -3,7 +3,7 @@ package level03;
 /*
  * 문제: 섬 연결하기
  * 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42861
- * 해결방법: 그리디 알고리즘
+ * 해결방법: 프림 알고리즘
  * */
 
 import java.util.ArrayList;
